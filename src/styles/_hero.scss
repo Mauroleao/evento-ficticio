@@ -4,11 +4,11 @@
 .hero {
     padding-top: 64px;
     padding-bottom: 100px;
-    background-image: url('../images/fundo.png'); // Caminho corrigido
+    background-image: url('../images/3602762.jpg'); // Caminho corrigido
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    color: #fff;
+    color: #e717b3;
 
     .container {
         position: relative;
@@ -44,15 +44,16 @@
 
     &__logo {
         margin: 0 auto;
-        height: 80px;
+        max-width: 100%;
+        height: auto;
         display: block;
     }
 
     @media (max-width: 640px) {
         padding: 40px 0;
-        &__logo {
-            height: 40px;
-        }
+            &__logo {
+                max-width: 80%;
+            }
 
         &__text {
             font-size: 22px;
